@@ -10,11 +10,11 @@ import (
 	"errors"
 	"image"
 
-	"github.com/wenlng/go-captcha/v2/base/helper"
-	"github.com/wenlng/go-captcha/v2/base/imagedata"
-	"github.com/wenlng/go-captcha/v2/base/logger"
-	"github.com/wenlng/go-captcha/v2/base/randgen"
-	"github.com/wenlng/go-captcha/v2/base/random"
+	"github.com/Alarak-Alex/go-captcha/v2/base/helper"
+	"github.com/Alarak-Alex/go-captcha/v2/base/imagedata"
+	"github.com/Alarak-Alex/go-captcha/v2/base/logger"
+	"github.com/Alarak-Alex/go-captcha/v2/base/randgen"
+	"github.com/Alarak-Alex/go-captcha/v2/base/random"
 )
 
 // Captcha .

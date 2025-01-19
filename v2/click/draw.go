@@ -12,12 +12,12 @@ import (
 	"math"
 	mRand "math/rand"
 
+	"github.com/Alarak-Alex/go-captcha/v2/base/canvas"
+	"github.com/Alarak-Alex/go-captcha/v2/base/helper"
+	"github.com/Alarak-Alex/go-captcha/v2/base/option"
+	"github.com/Alarak-Alex/go-captcha/v2/base/randgen"
+	"github.com/Alarak-Alex/go-captcha/v2/base/random"
 	"github.com/golang/freetype"
-	"github.com/wenlng/go-captcha/v2/base/canvas"
-	"github.com/wenlng/go-captcha/v2/base/helper"
-	"github.com/wenlng/go-captcha/v2/base/option"
-	"github.com/wenlng/go-captcha/v2/base/randgen"
-	"github.com/wenlng/go-captcha/v2/base/random"
 	"golang.org/x/image/draw"
 	"golang.org/x/image/font"
 )
@@ -383,7 +383,7 @@ func (d *drawImage) DrawShapeImage(dot *DrawDot, cColor color.Color) (canvas.NRG
 	var colorArr = []color.RGBA{
 		{R: uint8(cr), G: uint8(cg), B: uint8(cb), A: uint8(ca)},
 	}
-	
+
 	ncvs := canvas.CreateNRGBACanvas(dot.Width+10, dot.Height+10, true)
 	var bounds image.Rectangle
 	var img image.Image

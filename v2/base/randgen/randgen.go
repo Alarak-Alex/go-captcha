@@ -11,9 +11,9 @@ import (
 	"image/color"
 	"math/rand"
 
+	"github.com/Alarak-Alex/go-captcha/v2/base/helper"
+	"github.com/Alarak-Alex/go-captcha/v2/base/random"
 	"github.com/golang/freetype/truetype"
-	"github.com/wenlng/go-captcha/v2/base/helper"
-	"github.com/wenlng/go-captcha/v2/base/random"
 )
 
 // RandFont is to random font

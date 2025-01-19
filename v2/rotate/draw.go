@@ -9,8 +9,8 @@ package rotate
 import (
 	"image"
 
-	"github.com/wenlng/go-captcha/v2/base/canvas"
-	"github.com/wenlng/go-captcha/v2/base/randgen"
+	"github.com/Alarak-Alex/go-captcha/v2/base/canvas"
+	"github.com/Alarak-Alex/go-captcha/v2/base/randgen"
 	"golang.org/x/image/draw"
 )
 

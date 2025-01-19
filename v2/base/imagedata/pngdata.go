@@ -9,8 +9,8 @@ package imagedata
 import (
 	"image"
 
-	"github.com/wenlng/go-captcha/v2/base/codec"
-	"github.com/wenlng/go-captcha/v2/base/option"
+	"github.com/Alarak-Alex/go-captcha/v2/base/codec"
+	"github.com/Alarak-Alex/go-captcha/v2/base/option"
 )
 
 // PNGImageData .
